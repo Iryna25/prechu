@@ -1,0 +1,21 @@
+html{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.container{
+	width: 980px;
+	margin: auto;
+}
