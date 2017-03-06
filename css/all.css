@@ -397,6 +397,46 @@ background-size: cover;
 	display: none;
 }
 
+.navbar-header{
+	width: 100%;
+}
+
+.navbar-toggle{
+	display: block;
+	float: right;
+	margin-right: 25px;
+	width: 56px;
+	height: 44px;
+	background-color: #5094f2;
+	border-radius: 4px;
+	padding-top: 7px;
+}
+
+.collapse{
+	display: block;
+}
+
+.ico-bar{
+	display: block;
+	border: solid 3px #fff;
+	width: 36px;
+	margin: 4px auto;
+}
+
+.navi{
+	padding: 0;
+	font-size: 26.35px;
+}
+
+.nav-item{
+	display: block;
+	margin-right: 50px;
+}
+
+.navi>.active:after{
+	display: none;
+}
+
 .slide-img{
 	width: 40%;
 	padding-top: 40px;
