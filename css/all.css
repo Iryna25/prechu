@@ -200,7 +200,8 @@ body{
 }
 
 .feature-item{
-	width: 26%;
+	width: 33.33%;
+	padding: 10px;
 	text-align: center;
 }
 
@@ -401,6 +402,8 @@ background-size: cover;
 
 .navbar-collapse{
 	display: none;
+	float: none;
+	clear: both;
 }
 
 .navbar-header{
@@ -435,12 +438,13 @@ background-size: cover;
 
 .navi{
 	padding: 0;
+	text-align: center;
 	font-size: 26.35px;
+	
 }
 
 .nav-item{
 	display: block;
-	margin-right: 50px;
 }
 
 .navi>.active:after{
